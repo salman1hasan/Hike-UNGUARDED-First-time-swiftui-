@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C55D42D72AC20C55006F18D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D42D62AC20C55006F18D7 /* ContentView.swift */; };
+		C55D42DF2AC20DAA006F18D7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D42DE2AC20DAA006F18D7 /* SettingsView.swift */; };
 		C55F8F092AC0B4C60057578D /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F8F082AC0B4C60057578D /* CustomButtonView.swift */; };
+		C58E6F5A2AC2F323007C4E8E /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E6F592AC2F323007C4E8E /* CustomListRowView.swift */; };
 		C5B39C1C2AC09695005116F5 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B39C1B2AC09695005116F5 /* HikeApp.swift */; };
 		C5B39C202AC09698005116F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B39C1F2AC09698005116F5 /* Assets.xcassets */; };
 		C5B39C232AC09698005116F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B39C222AC09698005116F5 /* Preview Assets.xcassets */; };
@@ -20,7 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C55D42D62AC20C55006F18D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C55D42DE2AC20DAA006F18D7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C55F8F082AC0B4C60057578D /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		C58E6F592AC2F323007C4E8E /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		C5B39C182AC09695005116F5 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B39C1B2AC09695005116F5 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		C5B39C1F2AC09698005116F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C55D42D92AC20CA2006F18D7 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C55D42D62AC20C55006F18D7 /* ContentView.swift */,
+				C55D42DE2AC20DAA006F18D7 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		C5B39C0F2AC09695005116F5 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +82,7 @@
 				C5B39C342AC0A2BB005116F5 /* Utility */,
 				C5B39C212AC09698005116F5 /* Preview Content */,
 				C5B39C1B2AC09695005116F5 /* HikeApp.swift */,
+				C55D42D92AC20CA2006F18D7 /* Screen */,
 				C5B39C1F2AC09698005116F5 /* Assets.xcassets */,
 			);
 			path = Hike;
@@ -88,6 +104,7 @@
 				C55F8F082AC0B4C60057578D /* CustomButtonView.swift */,
 				C5C301B12AC1AC8200A878DE /* CustomCircleView.swift */,
 				C5C301B32AC1B96200A878DE /* MotionAnimationView.swift */,
+				C58E6F592AC2F323007C4E8E /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -173,9 +190,12 @@
 			files = (
 				C5C301B22AC1AC8200A878DE /* CustomCircleView.swift in Sources */,
 				C5B39C302AC09D9C005116F5 /* CardView.swift in Sources */,
+				C58E6F5A2AC2F323007C4E8E /* CustomListRowView.swift in Sources */,
 				C5B39C1C2AC09695005116F5 /* HikeApp.swift in Sources */,
 				C55F8F092AC0B4C60057578D /* CustomButtonView.swift in Sources */,
 				C5C301B02AC18DFC00A878DE /* GradientButtonStyle.swift in Sources */,
+				C55D42DF2AC20DAA006F18D7 /* SettingsView.swift in Sources */,
+				C55D42D72AC20C55006F18D7 /* ContentView.swift in Sources */,
 				C5C301B42AC1B96200A878DE /* MotionAnimationView.swift in Sources */,
 				C5B39C332AC0A077005116F5 /* CustomBackgroundView.swift in Sources */,
 				C5B39C362AC0A2E6005116F5 /* ColorExtension.swift in Sources */,
