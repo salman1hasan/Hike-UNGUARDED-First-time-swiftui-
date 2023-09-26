@@ -1,8 +1,7 @@
 //
 //  CardView.swift
 //  Hike
-//
-//  Created by Salman Hasan on 9/24/23.
+// Created by Salman Hasan on 9/24/23.
 //
 
 import SwiftUI
